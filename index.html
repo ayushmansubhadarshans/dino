@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dino Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game">
+    <img id="dino" class="dino" src="https://github.com/siddeshg907/mayank/blob/master/output-onlinegiftools.gif?raw=true">
+    <img id="obstacle" class="obstacle" src="https://github.com/siddeshg907/mayank/blob/master/illustration-of-a-stone-with-a-cartoon-style-png.webp?raw=true">
+    <div class="ground"></div>
+  </div>
+
+  <div id="score">Score: 0</div>
+
+  <div id="gameOver" style="display: none;">
+    <img src="https://github.com/siddeshg907/mayank/blob/master/dino_dance.gif?raw=true" alt="">
+    
+    <p>Game Over! Final Score: <span id="finalScore"></span></p>
+    <button onclick="restartGame()">Play Again</button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
